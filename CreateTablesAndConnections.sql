@@ -41,7 +41,6 @@ Notes VARCHAR(50),
 
 );
 
-
 CREATE TABLE tblEpisodEnemy(
 EpisodEnemyId VARCHAR(20) NOT NULL primary key,
 EpisodId VARCHAR(20) FOREIGN KEY REFERENCES tblEpisode(EpisodeId) ,
